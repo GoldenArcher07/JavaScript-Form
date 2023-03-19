@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Validation</title>
+
+      <link rel="stylesheet" href="style.css">
+      <link rel="shortcut icon" href="my-favicon.ico" type="image/x-icon">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+      <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+      <script defer src="./index.js"></script>
+      <script src="https://kit.fontawesome.com/7009be7101.js" crossorigin="anonymous"></script>
+      
+      
+      </head>
+      
+      <body>
+        <div class="login-container">
+          <div class="header">
+            <h2>My UpWork Example: DOM Elements Manipulation.</h2>
+          </div>
+          <form id="form" class="form">
+            <div class="form-control">
+              <!--Dynamic classes for success & errors-->
+              <label for="username">Username: </label>
+              <input type="text" placeholder="Please, enter username" id="username" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+      
+            <div class="form-control"> <!--Dynamic classes for errors-->
+              <label for="username">Password: </label>
+              <input type="password" placeholder="Please, enter password" id="password" />
+              <i class="fas fa-check-circle"></i>
+              <i class="fas fa-exclamation-circle"></i>
+              <small>Error message</small>
+            </div>
+      
+            <div class="form-control">
+              <button id="login" type="submit">Login</button>
+              <small>Success message</small>
+            </div>
+          </form>
+        </div>
+      
+      
+        <script src="js/jquery-3.6.0.min.js"></script>
+      
+        <div>
+          <script src="script.js"></script>
+        </div>
+      
+      </body>
+      
+      </html>
